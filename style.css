@@ -1,0 +1,135 @@
+/* DEFAULT */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+/* NAV */
+    #nav_content{
+        background-color: rgba(0, 0, 0, 0.397);
+        position: sticky;
+        top: 0;
+    }
+    /* NAV > UL */
+        #nav_ul_items{
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            gap: 5px;
+        }
+        /* NAV > UL > LI ELEMENTS*/
+            .nav_ul_li_items{/* ALL */
+                
+            }
+            
+            #li_home{
+                background-color: green;
+            }
+            #li_proyects{
+                background-color: orange;
+            }
+            #li_aboutme{
+                background-color: yellow;
+            }
+            #li_contact{
+                background-color: red;
+            }
+                .nav_ul_li_items>a{
+                    padding: 10px 20px;
+                    color: rgb(0, 0, 0);
+                    font-family: 'Bungee', cursive;
+                }
+            #img_nav>img{
+                width: 50px;
+                border: 5px solid rgb(255, 255, 255);
+            }
+/* BODY - ELEMENTS */
+title{
+    align-items: center;
+}
+.content{
+    width: 100%;
+    height: 100vh;
+}
+/* BODY > HOME */
+#home{
+    background-color: rgb(206, 154, 77);
+}
+    /* BODY > HOME > ELEMENTS */
+    .content_home{/* ALL */
+        width: 100%;
+    }
+    #home_game{
+        background-color: rgb(68, 68, 68);
+        height: 40%;
+    }
+    #home_title{
+        background-color: rgb(0, 0, 0);
+        height: 10%;
+        display: flex;
+    }
+        #title_sergypull{
+            font-family: 'Mitr', sans-serif;
+            letter-spacing: 100px;
+            font-size: 3em;
+            color: wheat;
+            text-shadow: 0px 0px 10px rgb(255, 255, 255);
+
+            display: inline-block;
+            width: 1078px;
+            margin: auto;
+
+            z-index: 100;
+        }
+    #home_summary{
+        background-color: rgb(148, 135, 118);
+        height: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        .text_summary{
+            display: inline-block;
+            font-family: 'Mitr', sans-serif;
+        }
+    #home_socialmedia{
+        background-color: rgb(51, 31, 5);
+        height: 20%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#proyects{
+    background-color: rgb(170, 52, 141);
+}
+#aboutme{
+    background-color: rgb(62, 170, 52);
+}
+#contact{
+    background-color: rgb(54, 52, 170);
+}
